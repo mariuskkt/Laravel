@@ -1,0 +1,54 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+// Variables
+@import 'variables';
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.bikes-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.bike-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.bike {
+    box-shadow: 0 0 3px 1px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bike-img-container{
+    height: 300px;
+}
+.wrapper {
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-custom-style {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-bikes-show-table {
+    width: 200px;
+}
+.table-bikes-show {
+    margin-top: 50px;
+    box-shadow: 0 0 4px;
+}
+.table-bikes-show td, th{
+    padding: 0 20px;
+    text-align: center;
+}
+
